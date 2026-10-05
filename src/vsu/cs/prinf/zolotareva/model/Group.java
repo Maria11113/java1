@@ -4,22 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Group {
+    private Long id;
     private int courseNumber;
-    private String groupNumber;
-
+    private String groupName;
     private List<Student> students = new ArrayList<>();
 
-    public Group(int courseNumber, String groupNumber) {
+    public Group(Long id, int courseNumber, String groupName) {
+        this.id = id;
         this.courseNumber = courseNumber;
-        this.groupNumber = groupNumber;
+        this.groupName = groupName;
     }
 
+    public Long getId() { return id; }
     public int getCourseNumber() { return courseNumber; }
-    public String getGroupNumber() { return groupNumber; }
+    public String getGroupName() { return groupName; }
     public List<Student> getStudents() { return students; }
+
+    public void addStudent(Student student) { students.add(student); }
+    public void removeStudent(Student student) { students.remove(student); }
 
     @Override
     public String toString() {
-        return "Курс: " + courseNumber + ", Группа: " + groupNumber;
+        return "ID:" + id + " Группа: " + groupName + " (Курс: " + courseNumber + ")";
     }
 }
