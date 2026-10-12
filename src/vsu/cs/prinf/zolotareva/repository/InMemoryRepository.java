@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class InMemoryRepository<T> {
 
-    private Map<Long, T> storage = new HashMap<>();
+    private final Map<Long, T> storage = new HashMap<>();
 
     public void create(Long id, T entity) {
         storage.put(id, entity);

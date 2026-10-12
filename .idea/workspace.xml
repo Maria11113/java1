@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6bb2264-2cd9-40b6-9de0-70c3047e7f44" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/repository/InMemoryRepository.java" afterDir="false" />
+    <list default="true" id="f6bb2264-2cd9-40b6-9de0-70c3047e7f44" name="Changes" comment="repository dobavila">
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/controller/JournalCmdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/service/JournalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/model/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/repository/InMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/prinf/zolotareva/repository/InMemoryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "att1",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;att1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,12 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1790603022858</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="repository dobavila">
+      <option name="closed" value="true" />
+      <created>1791208076604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791208076604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="repository dobavila" />
+    <option name="LAST_COMMIT_MESSAGE" value="repository dobavila" />
   </component>
 </project>

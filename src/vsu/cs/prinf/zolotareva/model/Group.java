@@ -2,29 +2,30 @@ package vsu.cs.prinf.zolotareva.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class Group {
-    private Long id;
+    private UUID id;
     private int courseNumber;
     private String groupName;
     private List<Student> students = new ArrayList<>();
 
-    public Group(Long id, int courseNumber, String groupName) {
+    public Group(UUID id, int courseNumber, String groupName) {
         this.id = id;
         this.courseNumber = courseNumber;
         this.groupName = groupName;
     }
 
-    public Long getId() { return id; }
-    public int getCourseNumber() { return courseNumber; }
-    public String getGroupName() { return groupName; }
-    public List<Student> getStudents() { return students; }
+    public UUID id() { return id; }
+    public int courseNumber() { return courseNumber; }
+    public String groupName() { return groupName; }
+    public List<Student> students() { return students; }
 
     public void addStudent(Student student) { students.add(student); }
     public void removeStudent(Student student) { students.remove(student); }
 
     @Override
     public String toString() {
-        return "ID:" + id + " Группа: " + groupName + " (Курс: " + courseNumber + ")";
+        return "Группа: " + groupName + " (Курс: " + courseNumber + ")";
     }
 }
